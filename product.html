@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--Tailwind CSS CDN LINK-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <!--RESPONSIVE NAVBAR-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">GREENDEN</h1>  
+        <ul class="flex gap-5 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="#" >Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html">Contact</a>
+            </li>
+        </ul>
+</nav>
+<!--product section-->
+<section class="text-center">
+    <h1 class="text-3xl text-center font-bold mt-5">Our Products</h1>
+    <input type="text" class="border border-black p-2 m-3" style="width: 80%;" placeholder="Search for a Product...">
+</section>
+<!--products-->
+<section class="p-4 text-center">
+<div class="grid grid-cols-2 md:grid-cols-3 mt-5 gap-5">
+    <div>
+        <img src="./images/bestseller-1.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+        <h1>Rose Plant</h1>
+        <p>$25</p>
+    </div>
+    <div>
+        <img src="./images/bestseller-2 (3).jpg" class="inline hover:shadow-xl transform hover:-translate-y-2"alt="">
+        <h1>Marigold Plant</h1>
+        <p>$30</p>
+    </div>
+    <div>
+        <img src="./images/bestseller-5.png" class="inline hover:shadow-xl transform hover:-translate-y-2"alt="">
+        <h1>Lily Plant</h1>
+        <p>$15</p>
+    </div>
+    <div>
+        <img src="./images/bestseller-5 (1).png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+        <h1>Snake Plant</h1>
+        <p>$23</p>
+    </div>
+    <div>
+        <img src="./images/bestseller-4.jpg" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+        <h1>Lavendar Plant</h1>
+        <p>$27</p>
+    </div>
+    <div>
+        <img src="./images/pot.png" class="inline hover:shadow-xl transform hover:-translate-y-2" alt="">
+        <h1>Snake Pot</h1>
+        <p>$27</p>
+    </div>
+</div>
+</section>
+<!--footer-->
+<section class="bg-green-100 p-10 flex flex-col gap-5">
+    <h1 class="text-4xl font-bold">Greenden</h1>
+    <P> Your one-stop destination for lush, healthy plants with fast shipping and 24/7 support!</P>
+    <p>@2025 Greenday.com</p>
+</section> 
+</body>
+</html>
